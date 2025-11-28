@@ -1,0 +1,14 @@
+{
+    "name": "hello-devops-vilag",
+    "version": "1.0.0",
+    "description": "Egyszerű Hello DevOps Világ",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "node index.js",
+      "build": "echo \"Nincs külön build lépés, a futtatás előtt csak npm install szükséges.\""
+    },
+    "author": "",
+    "license": "MIT"
+  }
+  
