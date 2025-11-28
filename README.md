@@ -9,7 +9,7 @@ Egyszerű Node.js alapú HTTP szerver, amely egy "Hello DevOps WORLD 2.0!" üzen
 
 ## Build
 
-A projektnek nincs külön fordítási lépése, csak a függőségek telepítése szükséges.
+A projektnek nincs külön fordítási lépése, csak a függőségek telepítése szükséges. A parancssorba írja be az alábbiakat.
 
 ```bash
 npm install
