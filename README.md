@@ -1,6 +1,6 @@
 # DevOps-beadando
 
-Egyszerű Node.js alapú HTTP szerver, amely egy "Hello DevOps" üzenetet ad vissza.
+Egyszerű Node.js alapú HTTP szerver, amely egy "Hello DevOps WORLD 2.0!" üzenetet, és a szerver pontos idejét adja vissza.
 
 ## Előfeltételek
 
