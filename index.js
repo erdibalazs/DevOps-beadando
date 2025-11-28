@@ -17,7 +17,7 @@ let timenow=(year + "-" + month + "-" + date+" "+hours+":"+minutes);
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain; charset=utf-8");
-  res.end("Hello DevOps WORLD! Ez egy Node.js alkalmazáss.\nPontos idő: "+timenow+"\n");
+  res.end("Hello DevOps WORLD 2.0! Ez egy Node.js alkalmazás.\nPontos idő: "+timenow+"\n");
 });
 
 server.listen(PORT, () => {
