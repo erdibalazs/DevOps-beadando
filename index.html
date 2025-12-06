@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Pontos dátum és idő</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+
+<div id="time"></div>
+
+<script>
+    function updateTime() {
+        const now = new Date();
+        document.getElementById("time").textContent = now.toLocaleString("hu-HU");
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+</script>
+
+</body>
+</html>
